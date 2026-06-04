@@ -7,7 +7,7 @@ def hello_world():
     return 'Hello from Dockerized Flask App!'
 
 if __name__ == '__main__':
-    # Host '0.0.0.0' allows the app to accept connections from outside its container
+    # Host '0.0.0.0' allows the app to accept connections from outside its containers
     app.run(host='0.0.0.0', port=5001)
 
 
